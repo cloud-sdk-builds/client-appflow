@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-appflow`](https://www.npmjs.com/package/@aws-sdk/client-appflow/v/3.1147.0).
+[`@aws-sdk/client-appflow`](https://www.npmjs.com/package/@aws-sdk/client-appflow/v/3.1148.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-appflow - [https://cloud-sdk-builds.github.io/?sdk=client-appflow](https://cloud-sdk-builds.github.io/?sdk=client-appflow)
-- @aws-sdk/client-appflow v3.1147.0 - [https://cloud-sdk-builds.github.io/?sdk=client-appflow&version=3.1147.0](https://cloud-sdk-builds.github.io/?sdk=client-appflow&version=3.1147.0)
+- @aws-sdk/client-appflow v3.1148.0 - [https://cloud-sdk-builds.github.io/?sdk=client-appflow&version=3.1148.0](https://cloud-sdk-builds.github.io/?sdk=client-appflow&version=3.1148.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1147.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1148.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-1KPQwME7HVTJD3ubP8wOT6LeU30kVfEHWD0ccvVyD2QWGJXgstLs+hgQSR9HWVsw
+sha384-6QSFhyr0gBFCj0eXaYVo4d4WzFfD7qHW+ZPA8pujjPBY0M5Fbbzw74G6SAHGLLfN
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-appflow": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1147.0/index.min.mjs"
+            "@aws-sdk/client-appflow": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1148.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1147.0/index.min.mjs": "sha384-1KPQwME7HVTJD3ubP8wOT6LeU30kVfEHWD0ccvVyD2QWGJXgstLs+hgQSR9HWVsw"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1148.0/index.min.mjs": "sha384-6QSFhyr0gBFCj0eXaYVo4d4WzFfD7qHW+ZPA8pujjPBY0M5Fbbzw74G6SAHGLLfN"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-appflow": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1147.0/index.min.mjs"
+                        "@aws-sdk/client-appflow": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1148.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1147.0/index.min.mjs": "sha384-1KPQwME7HVTJD3ubP8wOT6LeU30kVfEHWD0ccvVyD2QWGJXgstLs+hgQSR9HWVsw"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appflow@3.1148.0/index.min.mjs": "sha384-6QSFhyr0gBFCj0eXaYVo4d4WzFfD7qHW+ZPA8pujjPBY0M5Fbbzw74G6SAHGLLfN"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1147.0`)
+* Always pin to a specific version (`@3.1148.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-appflow/blob/refs/tags/3.1147.0/LICENSE
+https://github.com/cloud-sdk-builds/client-appflow/blob/refs/tags/3.1148.0/LICENSE
 ```
 
 ---
